@@ -1,0 +1,85 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Helvetica;
+  line-height: 2;
+ font-weight: bold;
+font-size: 19px;
+background-color: wrgb(white);}
+
+h1, h2 {
+  margin-bottom: 20px;
+text-shadow: rgb(4, 1, 1);
+background-color: rgb(91, 164, 236);
+ font-weight: bold;
+ font-size: 24px;
+}
+
+
+p {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: yes;
+}
+
+/* Home Page */
+body p 
+> h1 {
+  text-align: left;
+  margin-top: 55px;
+background-color: green;
+}
+
+/* Portfolio Page */
+h2 {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Contact Page */
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+}
